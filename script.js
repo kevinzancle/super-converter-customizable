@@ -12,6 +12,9 @@
         }else if(value == 3){
             document.getElementById('body').style.backgroundImage = "url(./img/onepiecebg.jpeg)"
             document.getElementById('container').style.backgroundColor = "rgba(238, 73, 73, 0.4)"
+        }else if(value == 4){
+            document.getElementById('body').style.backgroundImage = "url(./img/corinthiansbg.jpg)"
+            document.getElementById('container').style.backgroundColor = "rgba(143, 143, 143, 0.4)"
         }
     }
 
