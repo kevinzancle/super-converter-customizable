@@ -1,0 +1,53 @@
+
+/* Reset simples no css, para "limpar" a base */
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./img/matrixbg.png);
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px dotted gray;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+.container{
+    background-color: rgba(0, 255, 0, 0.4);
+    padding: 100px 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p,h1{
+    font-weight: bold;
+    color: white;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+

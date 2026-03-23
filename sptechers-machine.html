@@ -1,0 +1,41 @@
+<!-- Criado por Marise Miranda | 2017.1 -->
+<!-- Adaptado por Matheus Matos | 2025.1 -->
+<!-- Re-adaptado por Kevin Zancle | 2026.3 -->
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Super Converter</title>
+</head>
+
+<!-- O propósito dessa versão é permitir que o usuário insira qualquer base e obtenha a conversão para as outras, visto que isso não era possível na versão base  -->
+<!-- A ideia surgiu porque eu vi isso em um site de conversões durante a atividade de criptografia -->
+
+<body id="body"> 
+        <div class="theme">
+            <select name="" id="theme" onchange ="change()">
+                <option value="1">HACKER</option>
+                <option value="2">PINES</option>
+                <option value="3">TREASURE</option>
+            </select>
+        </div>
+        <div class="container" id="container">
+            <h1>SUPER CONVERTER</h1>
+            <div class="calculator">
+                <p>Decimal:</p>
+                <input id="ipt_dec" type="number" oninput="converterDec()">
+                <p>Binary:</p>
+                <input type="number" id="ipt_bin" oninput="converterBin()">
+                <p>Octal:</p>
+                <input type="number" id="ipt_oct" oninput="converterOct()">
+                <p>Hexadecimal:</p>
+                <input type="text" id="ipt_hex" oninput="converterHex()">
+            </div>
+        </div>
+</body>
+</html>
+<script src="script.js"></script>
